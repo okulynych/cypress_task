@@ -12,6 +12,7 @@ import {
   createPullRequest,
   mergePullRequest,
 } from "../pages/GithubRepoDetailsPage";
+
 describe("Github actions test", () => {
   beforeEach(() => {
     login();
