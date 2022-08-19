@@ -1,0 +1,12 @@
+{
+    "name": "cypress_task",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "cypress": "^7.7.0"
+    },
+    
+  "scripts": {
+    "test-all": "./node_modules/.bin/cypress run --browser chrome"
+  }
+}
