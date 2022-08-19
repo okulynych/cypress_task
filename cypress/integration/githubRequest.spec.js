@@ -12,7 +12,7 @@ describe("Github request test", () => {
           .slice(0, 2);
         const expected_ids = [347631046, 494199691];
         expect(response.status).equal(200);
-        expect(response.body).to.have.length(3);
+        expect(response.body).to.have.length(4);
         expect(boilerplateRepo).to.have.property("id", 347631046);
         expect(boilerplateRepo).to.have.property(
           "node_id",
